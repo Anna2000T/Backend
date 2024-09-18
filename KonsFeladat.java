@@ -22,6 +22,14 @@ void adatok()
     System.out.println(this.age + " éves vagyok");
     System.out.println(this.gender);
 }
+
+void getGoal()
+{
+    System.out.println("My goal is World domination!");
+
+}
+
+
         
 }
 
@@ -44,12 +52,20 @@ class Person2 {
 
 }
 
+
 void adatok()
 {
     System.out.println("Szia " + this.name + " vagyok ");
     System.out.println(this.age + " éves vagyok");
     System.out.println(this.gender);
 }
+
+void getGoal()
+{
+    System.out.println("My goal is World peace!");
+
+}
+
 }
 
 
@@ -74,6 +90,15 @@ void adatok()
     System.out.println(this.age + " éves vagyok");
     System.out.println(this.gender);
 }
+
+void getGoal()
+{
+    System.out.println("My goal is to see the world!");
+
+}
+
+
+
 }
 
 
@@ -93,6 +118,7 @@ public class KonsFeladat {
         System.out.println(szemely.gender);
 
         szemely.adatok();
+        szemely.getGoal();
 
         System.out.println();
 
@@ -103,6 +129,7 @@ public class KonsFeladat {
         System.out.println();
 
         szemely2.adatok();
+        szemely2.getGoal();
 
 
 
@@ -115,6 +142,7 @@ public class KonsFeladat {
         System.out.println();
 
         szemely3.adatok();
+        szemely3.getGoal();
         
 
 
